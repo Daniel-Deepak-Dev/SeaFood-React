@@ -6,8 +6,7 @@ const Header = (props) => {
     <div className='inventory'>
     <h2>Inventory</h2>
     <AddFishForm addFish={props.addFish}/>
-    <AddFishForm />
-    <AddFishForm />
+    <button onClick={props.loadSampleFishes}>Load Sample Fishes</button>
     </div>)
 }
 
