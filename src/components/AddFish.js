@@ -10,13 +10,12 @@ const AddFishForm = (props) => {
     function createFish(e){
       e.preventDefault()
       let fish = {
-        name:fishNameRef.current.value,
+        fishName:fishNameRef.current.value,
         cost:parseFloat( costRef.current.value),
         avaiability:avaiabilityRef.current.value,
         description:descriptionRef.current.value,
         image:imageRef.current.value
       } 
-        // console.log(e)
         props.addFish(fish)
         e.currentTarget.reset();
     }
