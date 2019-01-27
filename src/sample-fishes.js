@@ -1,83 +1,83 @@
 // This is just some sample data so you don't have to think of your own!
 const fishes = {
   fish1: {
-    name: "Pacific Halibut",
+    fishName: "Pacific Halibut",
     image: "/images/hali.jpg",
-    desc:
+    description:
       "Everyone’s favorite white fish. We will cut it to the size you need and ship it.",
-    price: 1724,
-    status: "available"
+    cost: 17199,
+    avaiability: "available"
   },
 
   fish2: {
-    name: "Lobster",
+    fishName: "Lobster",
     image: "/images/lobster.jpg",
-    desc:
+    description:
       "These tender, mouth-watering beauties are a fantastic hit at any dinner party.",
-    price: 3200,
-    status: "available"
+    cost: 32000,
+    avaiability: "available"
   },
 
   fish3: {
-    name: "Sea Scallops",
+    fishName: "Sea Scallops",
     image: "/images/scallops.jpg",
-    desc:
+    description:
       "Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound",
-    price: 1684,
-    status: "unavailable"
+    cost: 16840,
+    avaiability: "unavailable"
   },
 
   fish4: {
-    name: "Mahi Mahi",
+    fishName: "Mahi Mahi",
     image: "/images/mahi.jpg",
-    desc:
+    description:
       "Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes. ",
-    price: 1129,
-    status: "available"
+    cost: 11290,
+    avaiability: "available"
   },
 
   fish5: {
-    name: "King Crab",
+    fishName: "King Crab",
     image: "/images/crab.jpg",
-    desc:
+    description:
       "Crack these open and enjoy them plain or with one of our cocktail sauces",
-    price: 4234,
-    status: "available"
+    cost: 42350,
+    avaiability: "available"
   },
 
   fish6: {
-    name: "Atlantic Salmon",
+    fishName: "Atlantic Salmon",
     image: "/images/salmon.jpg",
-    desc:
+    description:
       "This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!",
-    price: 1453,
-    status: "available"
+    cost: 14550,
+    avaiability: "available"
   },
 
   fish7: {
-    name: "Oysters",
+    fishName: "Oysters",
     image: "/images/oysters.jpg",
-    desc: "A soft plump oyster with a sweet salty flavor and a clean finish.",
-    price: 2543,
-    status: "available"
+    description: "A soft plump oyster with a sweet salty flavor and a clean finish.",
+    cost: 254300,
+    avaiability: "available"
   },
 
   fish8: {
-    name: "Mussels",
+    fishName: "Mussels",
     image: "/images/mussels.jpg",
-    desc:
+    description:
       "The best mussels from the Pacific Northwest with a full-flavored and complex taste.",
-    price: 425,
-    status: "available"
+    cost: 425,
+    avaiability: "available"
   },
 
   fish9: {
-    name: "Jumbo Prawns",
+    fishName: "Jumbo Prawns",
     image: "/images/prawns.jpg",
-    desc:
+    description:
       "With 21-25 two bite prawns in each pound, these sweet morsels are perfect for shish-kabobs.",
-    price: 2250,
-    status: "available"
+    cost: 22500,
+    avaiability: "available"
   }
 };
 
