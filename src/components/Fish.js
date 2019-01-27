@@ -7,10 +7,12 @@ const Fish=(props)=>{
     return(
     <li className='menu-fish'> 
         <img src={image} alt={name}/>
-        <h3>{name} <span className='price'>{formatPrice( cost)}</span></h3>
+        <h3 className='fish-name'>{name} 
+            <span className='price'>{formatPrice( cost)}</span>
+        </h3>
         <p>{desc}</p>
         <button>Add To Cart</button>
     </li>)
 }
 
-export default Fish
+export default Fish;
