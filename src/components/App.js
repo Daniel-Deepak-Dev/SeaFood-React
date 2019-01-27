@@ -12,9 +12,6 @@ class App extends Component {
     let fishes={...this.state.fishes};
     fishes[`fish${parseInt(Date.now()/1000000000)}`]=fish
     this.setState({fishes:fishes})
-    setTimeout(() => {
-      console.log(this.state.fishes)
-    }, 1);    
   }
   render() {
     return (

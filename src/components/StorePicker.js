@@ -6,7 +6,7 @@ const StroePicker=(props)=>{
 
     function goToStore(event){
         event.preventDefault(); // to stop form from submitting
-        props.history.push(`/store/${myInput.current.value}`)
+        props.history.push(`/store/${myInput.current.value}`)   //##############important#############
     }
 
     return (
