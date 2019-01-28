@@ -3,7 +3,7 @@ import React from "react";
 const AddFishForm = (props) => {
     let fishNameRef=React.createRef();
     let costRef=React.createRef();
-    let avaiabilityRef=React.createRef();
+    let availabilityRef=React.createRef();
     let descriptionRef=React.createRef();
     let imageRef=React.createRef();
     
@@ -12,7 +12,7 @@ const AddFishForm = (props) => {
       let fish = {
         fishName:fishNameRef.current.value,
         cost:parseFloat( costRef.current.value),
-        avaiability:avaiabilityRef.current.value,
+        availability:availabilityRef.current.value,
         description:descriptionRef.current.value,
         image:imageRef.current.value
       } 
@@ -23,7 +23,7 @@ const AddFishForm = (props) => {
     <form className="fish-edit" onSubmit={createFish}>
       <input name='name' type='text' ref={fishNameRef} placeholder="Name The Fish" />
       <input name='prise' type='text' ref={costRef}  placeholder="Cost" />
-      <select name='status' ref={avaiabilityRef} >
+      <select name='status' ref={availabilityRef} >
         <option value="available">Fresh!</option>
         <option value="unavailable">Sold Out!</option>
       </select>
