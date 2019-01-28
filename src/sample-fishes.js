@@ -1,12 +1,12 @@
 // This is just some sample data so you don't have to think of your own!
 const fishes = {
   fish1: {
-    fishName: "Pacific Halibut",
+    fishName: "Indian Halibut",
     image: "/images/hali.jpg",
     description:
       "Everyone’s favorite white fish. We will cut it to the size you need and ship it.",
     cost: 17199,
-    avaiability: "available"
+    availability: "available"
   },
 
   fish2: {
@@ -15,16 +15,16 @@ const fishes = {
     description:
       "These tender, mouth-watering beauties are a fantastic hit at any dinner party.",
     cost: 32000,
-    avaiability: "available"
+    availability: "unavailable"
   },
 
   fish3: {
     fishName: "Sea Scallops",
     image: "/images/scallops.jpg",
     description:
-      "Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound",
+      "Big, sweet and tender. True dry-pack scallops from the hot water of Bay of Bengal. About 8-10 per pound",
     cost: 16840,
-    avaiability: "unavailable"
+    availability: "available"
   },
 
   fish4: {
@@ -33,7 +33,7 @@ const fishes = {
     description:
       "Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes. ",
     cost: 11290,
-    avaiability: "available"
+    availability: "available"
   },
 
   fish5: {
@@ -42,7 +42,7 @@ const fishes = {
     description:
       "Crack these open and enjoy them plain or with one of our cocktail sauces",
     cost: 42350,
-    avaiability: "available"
+    availability: "available"
   },
 
   fish6: {
@@ -51,7 +51,7 @@ const fishes = {
     description:
       "This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!",
     cost: 14550,
-    avaiability: "available"
+    availability: "available"
   },
 
   fish7: {
@@ -59,16 +59,16 @@ const fishes = {
     image: "/images/oysters.jpg",
     description: "A soft plump oyster with a sweet salty flavor and a clean finish.",
     cost: 254300,
-    avaiability: "available"
+    availability: "available"
   },
 
   fish8: {
     fishName: "Mussels",
     image: "/images/mussels.jpg",
     description:
-      "The best mussels from the Pacific Northwest with a full-flavored and complex taste.",
+      "The best mussels from the Indian soutwest with a full-flavored and complex taste.",
     cost: 425,
-    avaiability: "available"
+    availability: "available"
   },
 
   fish9: {
@@ -77,7 +77,7 @@ const fishes = {
     description:
       "With 21-25 two bite prawns in each pound, these sweet morsels are perfect for shish-kabobs.",
     cost: 22500,
-    avaiability: "available"
+    availability: "available"
   }
 };
 
